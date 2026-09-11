@@ -3,6 +3,10 @@ from agents import run_agent
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return "Hello, Agentic Workflow!"
+
 
 @app.route("/ask", methods=["POST"])
 def ask():

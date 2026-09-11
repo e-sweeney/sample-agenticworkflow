@@ -33,5 +33,5 @@ jobs:
 
       - name: Run agent
         run: |
-          mkdir agents
+          cd agents
           python agents.py

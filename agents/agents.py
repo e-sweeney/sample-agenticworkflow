@@ -38,17 +38,17 @@ print("Agent decision:", decision)
 # Execute the chosen tool
 # -------------------------
 
-#if "weather" in decision.lower():
+if "weather" in decision.lower():
 
- #   result = get_weather()
+    result = get_weather()
 
-#elif "calendar" in decision.lower():
+elif "calendar" in decision.lower():
 
- #   result = get_calendar()
+    result = get_calendar()
 
-#else:
+else:
 
- #   result = "The agent did not select a valid tool."
+   result = "The agent did not select a valid tool."
 
 
-#print("Tool result:", result)
+print("Tool result:", result)
